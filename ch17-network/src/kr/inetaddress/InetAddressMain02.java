@@ -36,6 +36,7 @@ public class InetAddressMain02 {
 			e.printStackTrace();
 		}finally{
 			if(br != null){try{br.close();}catch(IOException e){e.printStackTrace();}}
+			System.out.println("???");
 		}
 
 	}
